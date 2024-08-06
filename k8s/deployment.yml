@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: inventory-app
-        image: mahesh430/aws-inventory-app:${BUILD_NUMBER}
+        image: mahesh430/aws-inventory-app:21
         ports:
         - containerPort: 8080
